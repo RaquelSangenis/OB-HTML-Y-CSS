@@ -1,11 +1,35 @@
-*{
-    margin:0;
-    padding:0;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,400;1,500;1,700&display=swap');
+
+.padre{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
 }
-.galeria{
-    display: flexbox;
-    flex-wrap: wrap;
+.hijo{
+    width: 50%;
+    height: 50%;
+    background-color: aqua; 
+    animation: traslacion 3s infinite forwards alternate;
 }
-.img{
-    width: 300px;
+.padre:hover .hijo{
+    animation-play-state: paused;
+}
+@keyframes traslacion{
+    0%{
+        background-color: orange;
+        transform: translateX(0%) translateY(0%);
+    }
+    25%{
+        transform: translateX(100%) translateY(0%);
+    }
+    50%{
+        background-color: orange;
+        transform: translateX(100%) translateY(100%);
+    }
+    75%{
+        transform: translateX(0%) translateY(100%);
+    }
+    100%{
+        transform: translateX(0%) translateY(0%);
+    }
 }
