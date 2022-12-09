@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.row div{
+    width: 100%;
+    margin: 0.25rem;
+}
+.col-sm{
+    background-color:burlywood;
+}
+.col-md{
+    background-color:greenyellow;
+}
+.col-lg{
+    background-color:coral;
+}
+.col-xl{
+    background-color:darkseagreen
+}
+.col-xxl{
+    background-color:fuchsia;
+}
