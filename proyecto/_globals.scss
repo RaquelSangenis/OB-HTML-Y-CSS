@@ -31,6 +31,9 @@
         flex: 1;
         color: $color-main;
     }   
+    .cta-text{
+        cursor: pointer;
+    }
     .home-title{
         font-size: 3rem;
         width: 30%;
@@ -45,6 +48,7 @@
 .sec-features{
     @include section-display();
     .intro{
+        margin-right: 150px;
         h3{
             font-size: 1.8rem;
         }
@@ -56,24 +60,55 @@
     .features{
         display: flex;
         .text{
-            max-width: 40%;
+            max-width: 80%;
             .feature{
                 display: flex;
                 flex-direction: row;
+                align-items: center;
                 .description{
                     .title{
-                        
+                        font-size: 1.25rem;
                     }
                     .text{
-
+                        font-size: 1rem;
                     }
                 }
             }
-
-        }
-        .image{
-
         }
     }            
 }
+.sec-benefits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding: 20px;   
+    h3{
+        align-items: center;
+    }
+    p{
+        color: #888;
+    }
+}
+.benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.benefit{
+    .icon{
+        align-items: center;
+        color: $color-main;
+        font-size: 7.5rem;
+    }
+    .b-title {
+        text-align: center;
+    }
+    .b-text p{
+        text-align: center;
+    }
+} 
+
+
+   
 

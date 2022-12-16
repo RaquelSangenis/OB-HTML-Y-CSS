@@ -172,6 +172,10 @@
   color: #0075FF;
 }
 
+.sec-home .cta-text {
+  cursor: pointer;
+}
+
 .sec-home .home-title {
   font-size: 3rem;
   width: 30%;
@@ -195,6 +199,10 @@
           align-items: center;
 }
 
+.sec-features .intro {
+  margin-right: 150px;
+}
+
 .sec-features .intro h3 {
   font-size: 1.8rem;
 }
@@ -211,7 +219,7 @@
 }
 
 .sec-features .features .text {
-  max-width: 40%;
+  max-width: 80%;
 }
 
 .sec-features .features .text .feature {
@@ -222,5 +230,70 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sec-features .features .text .feature .description .title {
+  font-size: 1.25rem;
+}
+
+.sec-features .features .text .feature .description .text {
+  font-size: 1rem;
+}
+
+.sec-benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 20px;
+}
+
+.sec-benefits h3 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sec-benefits p {
+  color: #888;
+}
+
+.benefit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.benefit .icon {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0075FF;
+  font-size: 7.5rem;
+}
+
+.benefit .b-title {
+  text-align: center;
+}
+
+.benefit .b-text p {
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */
