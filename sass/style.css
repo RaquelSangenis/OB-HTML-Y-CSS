@@ -1,0 +1,31 @@
+sass source/stylesheets/index.scss build/stylesheets/index.css
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px;
+  color: rgba(114, 70, 114, 0.4);
+  width: 50rem;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+}
+
+p {
+  margin: 20px;
+  color: rgba(114, 70, 114, 0.4);
+  width: 50rem;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+}
+
+.listado {
+  margin: 20px;
+  width: 10rem;
+  background-color: #e0d2e0;
+  padding: 0.5rem;
+  color:indigo;
+}
+/*# sourceMappingURL=style.css.map */
