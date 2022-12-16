@@ -1,3 +1,10 @@
+@mixin section-display {
+    display: flex;
+    width: 100%;;
+    padding: 3rem;
+    align-items: center;
+}
+
 *{
     margin: 0;
     padding: 0%;
@@ -19,10 +26,7 @@
     width: 25%;
 }
 .sec-home{
-    display: flex;
-    width: 100%;;
-    padding: 5rem;
-    align-items: center;
+    @include section-display();
     .home-cta{
         flex: 1;
         color: $color-main;
@@ -39,5 +43,37 @@
     }
 }
 .sec-features{
-    
+    @include section-display();
+    .intro{
+        h3{
+            font-size: 1.8rem;
+        }
+        p{
+            font-size: 0.8rem;
+            color: #888;
+        }    
+    }
+    .features{
+        display: flex;
+        .text{
+            max-width: 40%;
+            .feature{
+                display: flex;
+                flex-direction: row;
+                .description{
+                    .title{
+                        
+                    }
+                    .text{
+
+                    }
+                }
+            }
+
+        }
+        .image{
+
+        }
+    }            
 }
+
